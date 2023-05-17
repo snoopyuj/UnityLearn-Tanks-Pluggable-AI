@@ -1,12 +1,16 @@
-#  Tanks Pluggable AI
+# Tanks Pluggable AI
+
 Pluggable AI With Scriptable Objects [(Official Tutorial)](https://www.youtube.com/watch?v=cHUXh5biQMg&list=PLX2vGYjWbI0ROSj_B0_eir_VkHrEkd4pi&index=1)
 
-> *Author: Fork from [@ricardosanz97](https://github.com/ricardosanz97/TanksPluggableAI/tree/master)*
-> *Created: May 13, 2023*  
-> *Tags: C#, Unity3D*
-> *Unity Version: 2019.4.40f1*
+> _Author: Fork from [@ricardosanz97](https://github.com/ricardosanz97/TanksPluggableAI/tree/master)_ > _Created: May 13, 2023_  
+> _Tags: C#, Unity3D_ > _Unity Version: 2019.4.40f1_
+
+## Preview
+
+![Preview01](./Preview/Preview01.png)
 
 ## Structure
+
 ```
 State Controller (Mono)
   State
@@ -33,6 +37,7 @@ Chase Chaser State*
 ```
 
 ## Notes
-* We need to separate State files if the next states are different
-* e.g. `Patrol Chase State` and `Patrol Scanner State`
-* It use for loop to iterate Transitions, the new result will overwrite the previous one
+
+- We need to separate State files if the next states are different
+- e.g. `Patrol Chase State` and `Patrol Scanner State`
+- It use for loop to iterate Transitions, the new result will overwrite the previous one
